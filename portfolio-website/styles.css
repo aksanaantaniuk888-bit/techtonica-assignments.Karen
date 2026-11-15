@@ -41,7 +41,7 @@ body {
 
 .border-overlay {
   display: block;
-  width: 100%;           /* Forces the border to match the container width */
+  width: 100%;  /* Forces the border to match the container width */
   height: auto;
   position: relative;
   z-index: 2;
