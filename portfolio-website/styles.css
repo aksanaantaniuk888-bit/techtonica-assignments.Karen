@@ -57,23 +57,23 @@ body {
   }} 
 
 
-/* comments this out because it is messing up with the grid
+
 .item {
-  height: 400px;
-  width: 100px;
-  padding: 2em;
-  text-align: center;
-} */
+  background-color: #FCF6F5;
+} 
 
 header {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
   color: #50586C;
-  background-color: #f7c5cc;
   padding: 10px; /*pushes element away from it's border*/
   border-radius: 15px; /*rounds all corners by indicared px*/
   text-align: center;
+}
+
+.grid-container .header-color-override {
+  background-color: #f7c5cc;
 }
 
 ul {
@@ -115,8 +115,7 @@ ul {
   border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px;
-  text-align: center;
-  background-color: #FCF6F5; 
+  text-align: center; 
 } 
 
 .skills {
@@ -128,12 +127,18 @@ ul {
   padding: 20px;
   border-radius: 15px; 
   text-align: center;
+}
+
+.grid-container .skills-color-override {
   background-color: #D6ED17;
 }
 
 .divider-2 {
-  background-color: #f7c5cc;
   border-radius: 15px; /*rounds all corners by indicared px*/
+}
+
+.grid-container .divider-color-override {
+  background-color: #f7c5cc;
 }
 
 .spotlight {
@@ -141,7 +146,6 @@ ul {
   padding: 10px;
   border-radius: 15px; 
   text-align: center;
-  background-color: #FCF6F5; 
   gap: 10px; /*adds space between images */
   align-items: center;
 }
@@ -157,7 +161,6 @@ ul {
   padding: 10px;
   border-radius: 15px; 
   text-align: left;
-  background-color: #FCF6F5; 
 }
 
 .socials {
@@ -165,5 +168,8 @@ ul {
   padding: 10px;
   border-radius: 15px; 
   text-align: center;
+}
+
+.grid-container .socials-color-override {
   background-color: #DCE2F0; 
 }
