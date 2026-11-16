@@ -134,14 +134,22 @@ ul {
 }
 
 .spotlight {
-    border: 2px solid #50586C;
+  border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px; 
   text-align: center;
   background-color: #FCF6F5; 
-
+  display: flex;
+  gap: 10px; /*adds space between images */
+  align-items: center;
 }
 
+.spotlight img {
+  width: 150px;
+  height: 150px
+  object-fit: cover;  /* scales images without squishing */
+
+/*REMOVE SPOTLIGHT IMAGE*/
 .spotlight-image {
   border: 2px solid #50586C;
   padding: 10px;
