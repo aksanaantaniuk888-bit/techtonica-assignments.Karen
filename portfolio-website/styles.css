@@ -14,7 +14,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: .25fr 1fr .25fr 1fr 1fr;
+  grid-template-rows: .25fr 1fr .1fr 1fr 1fr;
   gap: 1em;
   grid-auto-rows: 1fr; /*resizes when text overflows*/
   grid-template-areas:
@@ -80,4 +80,9 @@ header {
   position: relative;
   z-index: 2;
   pointer-events: none;
+}
+
+.divider-2 {
+  background-color: #f7c5cc;
+  border-radius: 15px; /*rounds all corners by indicared px*/
 }
