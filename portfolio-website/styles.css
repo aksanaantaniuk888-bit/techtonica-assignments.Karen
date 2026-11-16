@@ -43,6 +43,9 @@ header {
   font-style: normal;
   color: #50586C;
   background-color: #f7c5cc;
+  padding: 10px; /*pushes element away from it's border*/
+  border-radius: 15px; /*rounds all corners by indicared px*/
+  text-align: center;
 }
 
 .skills {
