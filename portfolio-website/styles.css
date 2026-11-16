@@ -14,7 +14,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: .25fr 1fr .25fr 1fr 1fr;
   gap: 1em;
   grid-auto-rows: 1fr; /*resizes when text overflows*/
   grid-template-areas:
@@ -28,12 +28,13 @@ body {
 
 /*ADD MEDIA QUERY HERE WHEN READY*/
 
+/* comments this out because it is messing up with the grid
 .item {
   height: 400px;
   width: 100px;
   padding: 2em;
   text-align: center;
-}
+} */
 
 
 header {
