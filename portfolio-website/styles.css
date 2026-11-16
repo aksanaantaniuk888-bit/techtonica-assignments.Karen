@@ -11,7 +11,7 @@ body {
   color: #50586C;
 }
 
-.grid-containter {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -29,7 +29,7 @@ body {
 /*ADD MEDIA QUERY HERE WHEN READY*/
 
 .item {
-  height: 100px;
+  height: 400px;
   width: 100px;
   padding: 2em;
   text-align: center;
