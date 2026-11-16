@@ -9,6 +9,7 @@ body {
   font-style: normal;
   background-color: #FCF6F5; /*change color of page body to snow white color */
   color: #50586C;
+  background-image: url(images/background.jpg);
 }
 
 .grid-container {
@@ -21,9 +22,8 @@ body {
   "box-1 box-1 box-1 box-1"
   "box-2 box-3 box-3 box-4"
   "box-5 box-5 box-5 box-4"
-  "box-6 box-7 box-7 box-4"
-  "box-8 box-8 box-8 box-9";
-  border: 8px solid black;
+  "box-6 box-6 box-6 box-4"
+  "box-8 box-8 box-9 box-9";
 }
 
 /*ADD MEDIA QUERY HERE WHEN READY*/
@@ -49,6 +49,7 @@ header {
 
 ul {
   list-style-type: none; /*removes the bulletin points*/
+  padding-left: 0; /*removes padding from the indention*/
 }
 
 /*Selfie with border overlay*/ 
@@ -82,18 +83,20 @@ ul {
   border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px;
-  text-align: center; 
+  text-align: center;
+  background-color: #FCF6F5; 
 } 
 
 .skills {
   font-family: "Redaction 50", serif;
   font-weight: 400;
   font-style: normal;
-  color: #50586C;
+  color: #606060;
   border: 2px solid #50586C;
-  padding: 10px;
+  padding: 20px;
   border-radius: 15px; 
   text-align: center;
+  background-color: #D6ED17;
 }
 
 .divider-2 {
@@ -106,6 +109,7 @@ ul {
   padding: 10px;
   border-radius: 15px; 
   text-align: center;
+  background-color: #FCF6F5; 
 
 }
 
@@ -120,7 +124,8 @@ ul {
   border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px; 
-  text-align: center;
+  text-align: left;
+  background-color: #FCF6F5; 
 }
 
 .socials {
