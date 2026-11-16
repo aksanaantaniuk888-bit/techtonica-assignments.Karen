@@ -79,6 +79,9 @@ header {
 ul {
   list-style-type: none; /*removes the bulletin points*/
   padding-left: 0; /*removes padding from the indention*/
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 }
 
 /*Selfie with border overlay*/ 
@@ -162,4 +165,5 @@ ul {
   padding: 10px;
   border-radius: 15px; 
   text-align: center;
+  background-color: #DCE2F0; 
 }
