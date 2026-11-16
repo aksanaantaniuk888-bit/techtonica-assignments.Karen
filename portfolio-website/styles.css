@@ -15,7 +15,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: .25fr 1fr .1fr 1fr 1fr;
+  grid-template-rows: .25fr 1fr .1fr .75fr .8fr;
   gap: 1em;
   grid-auto-rows: 1fr; /*resizes when text overflows*/
   grid-template-areas:
@@ -139,15 +139,15 @@ ul {
   border-radius: 15px; 
   text-align: center;
   background-color: #FCF6F5; 
-  display: flex;
   gap: 10px; /*adds space between images */
   align-items: center;
 }
 
 .spotlight img {
   width: 150px;
-  height: 150px
+  height: 150px;
   object-fit: cover;  /* scales images without squishing */
+}
 
 .contact-form {
   border: 2px solid #50586C;
