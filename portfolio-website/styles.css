@@ -48,13 +48,6 @@ header {
   text-align: center;
 }
 
-.skills {
-  font-family: "Redaction 50", serif;
-  font-weight: 400;
-  font-style: normal;
-  color: #50586C;
-}
-
 /*Selfie with border overlay*/ 
 .photo-frame {
   position: relative;
@@ -87,6 +80,16 @@ header {
   padding: 10px;
   border-radius: 15px; 
 } 
+
+.skills {
+  font-family: "Redaction 50", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #50586C;
+  border: 2px solid #50586C;
+  padding: 10px;
+  border-radius: 15px; 
+}
 
 .divider-2 {
   background-color: #f7c5cc;
