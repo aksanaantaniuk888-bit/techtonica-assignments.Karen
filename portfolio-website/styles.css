@@ -14,8 +14,9 @@ body {
 .grid-containter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   gap: 1em;
+  grid-auto-rows: 1fr; /*resizes when text overflows*/
   grid-template-areas:
   "box-1 box-1 box-1 box-1"
   "box-2 box-3 box-3 box-4"
@@ -24,6 +25,8 @@ body {
   "box-8 box-8 box-8 box-9";
   border: 8px solid black;
 }
+
+/*ADD MEDIA QUERY HERE WHEN READY*/
 
 .item {
   height: 100px;
