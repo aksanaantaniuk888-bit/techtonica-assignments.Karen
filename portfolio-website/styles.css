@@ -100,3 +100,32 @@ ul {
   background-color: #f7c5cc;
   border-radius: 15px; /*rounds all corners by indicared px*/
 }
+
+.spotlight {
+    border: 2px solid #50586C;
+  padding: 10px;
+  border-radius: 15px; 
+  text-align: center;
+
+}
+
+.spotlight-image {
+  border: 2px solid #50586C;
+  padding: 10px;
+  border-radius: 15px; 
+  text-align: center;
+}
+
+.contact-form {
+  border: 2px solid #50586C;
+  padding: 10px;
+  border-radius: 15px; 
+  text-align: center;
+}
+
+.socials {
+  border: 2px solid #50586C;
+  padding: 10px;
+  border-radius: 15px; 
+  text-align: center;
+}
