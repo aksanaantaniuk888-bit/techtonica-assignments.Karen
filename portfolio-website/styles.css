@@ -24,6 +24,15 @@ body {
   padding: 10px;
 }
 
+.navbar-override .navbar-brand {
+  color: #50586C;
+}
+
+/*NAVBAR Styling - ABOUT ME TEXT*/
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link {
+  color: #50586C;
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
