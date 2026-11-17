@@ -1,4 +1,4 @@
-# Karen Limon's Porfolio
+# Karen Limon's Portfolio
 
 Welcome to my portfolio! I'm an evaluation specialist turned aspiring software engineer, building programming skills through the Techtonica program. This site brings together my technical skills, the projects I've built, and the experience I bring from 7+ years in research and evaluation.
 
