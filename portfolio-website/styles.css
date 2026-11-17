@@ -11,6 +11,17 @@ body {
   background-image: url(images/background.jpg);
 }
 
+/*NAVBAR Styling */
+.navbar-override {
+/* Update the font to match the headers */
+  font-family: "Redaction 50", serif;
+  color: #50586C;
+  background-color: #DCE2F0;
+  background-image: none;
+  padding: 10px; /*pushes element away from it's border*/
+  border-radius: 15px; /*rounds all corners by indicared px*/
+}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
