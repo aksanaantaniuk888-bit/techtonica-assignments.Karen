@@ -1,14 +1,13 @@
 body {
-  min-height: 100dvh;
-  display: flex; 
-  align-items: center;
-  justify-content: center;
-  padding: 2%;
-  font-family: "Redaction 50", serif;
-  font-weight: 400;
-  font-style: normal;
+  min-height: 100dvh; 
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 2% !important;
+  font-family: "Redaction 50", serif !important; 
+  font-weight: 400 !important;
+  font-style: normal !important;
   background-color: #FCF6F5; /*change color of page body to snow white color */
-  color: #50586C;
+  color: #50586C !important;
   background-image: url(images/background.jpg);
 }
 
@@ -111,12 +110,16 @@ ul {
   pointer-events: none;
 }
 
-.about-me {
+body .grid-container .about-me {
   border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px;
-  text-align: center; 
-} 
+  text-align: center;
+}
+
+/*body .grid-container .about-me p {
+ 
+}*/
 
 .skills {
   font-family: "Redaction 50", serif;
