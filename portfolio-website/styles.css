@@ -20,6 +20,8 @@ body {
   background-image: none;
   padding: 10px; /*pushes element away from it's border*/
   border-radius: 15px; /*rounds all corners by indicared px*/
+  border: 2px solid #50586C;
+  padding: 10px;
 }
 
 .grid-container {
