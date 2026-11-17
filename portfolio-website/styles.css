@@ -139,9 +139,15 @@ body .grid-container .about-me {
   text-align: center;
 }
 
-/*body .grid-container .about-me p {
- 
-}*/
+body .grid-container .about-me h2 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+body .grid-container .about-me p {
+ padding: 25px;
+}
 
 .skills {
   font-family: "Redaction 50", serif;
