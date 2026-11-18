@@ -193,11 +193,27 @@ body .grid-container .about-me p {
   object-fit: cover;  /* scales images without squishing */
 }
 
-.contact-form {
+.grid-container .contact-form {
   border: 2px solid #50586C;
   padding: 10px;
   border-radius: 15px; 
   text-align: left;
+  display: flex;
+}
+
+.grid-container .contact-form .contact-left {
+  margin-left: 20px;
+  float: left;
+  margin-right: 25px;
+}
+
+.grid-container .contact-form .contact-right {
+  float: right;
+}
+
+.grid-container .contact-form .submit-bottom {
+  display: block;
+  clear: both;
 }
 
 .socials {
