@@ -66,7 +66,7 @@ body {
 @media(min-width: 320px) and (max-width: 480px){
   .grid-container {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: .25fr 1fr 1fr .05fr 1fr 1fr;
+    grid-template-rows: .25fr 1fr 1fr .05fr 1fr .5fr;
     grid-template-areas:
     "box-2 box-1"
     "box-3 box-3"
@@ -95,7 +95,7 @@ header {
   background-color: #f7c5cc;
 }
 
-ul {
+.grid-container ul {
   list-style-type: none; /*removes the bulletin points*/
   padding-left: 0; /*removes padding from the indention*/
   display: flex;
@@ -156,6 +156,14 @@ body .grid-container .about-me p {
   padding: 20px;
   border-radius: 15px; 
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-container .skills h2{
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .grid-container .skills-color-override {
