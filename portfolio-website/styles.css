@@ -200,7 +200,11 @@ body .grid-container .about-me p {
 }
 
 .grid-container .socials-color-override {
-  background-color: #DCE2F0; 
+  background-color: #DCE2F0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*hyperlink*/
@@ -211,7 +215,6 @@ body .grid-container .about-me p {
   transition: box-shadow 0.25s ease, color 0.25s ease;
   padding: 0 4px;
 }
-
 
 .socials a:hover {
   box-shadow: inset 0 -1.4em 0 #D6ED17;
