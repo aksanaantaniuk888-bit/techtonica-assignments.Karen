@@ -112,7 +112,8 @@
         </section>
 
     <!--div 5 a visual section divideer-->
-        <div class="item divider-2 divider-color-override" style="grid-area: box-5"></div>
+    <!--aria attribute set for the decorative divider -->
+        <div class="item divider-2 divider-color-override role="divides section" aria-label="Pink decorative section divider"" style="grid-area: box-5"></div>
 
     <!--div 6 my projects-->
         <section class="item spotlight" id="spotlight-" style="grid-area: box-6">
@@ -129,7 +130,8 @@
     <!-- div 8/<form> contact form: name (required), email (required), phone number (not required), and address (not required)-->
         <form class="item contact-form" style="grid-area: box-8">
             <fieldset>
-                <legend>Contact me! :'] </legend>
+                <legend>Contact me! :-] </legend>
+                <!-- aria-hidden="true" tells screen readers to ignore the asterisk so users do not hear awkward symbols read aloud since the screen reader automatically announces the field as "required"-->
 
                 <label for="name">Name:<span class="requiredField" aria-hidden="true">*</span></label><br>
                 <input 
