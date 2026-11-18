@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,24 @@
     <link rel='stylesheet' href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Redaction+50:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <!--links to bootsrap-->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
-     <!--core open graph metadata: they tell social media platforms and messaging apps how to display rich link previews.-->
-     <meta property="og:title" content="Karen Limon's Portfolio" />
-     <meta property="og:type" content="website"/>
-     <meta property="og:url" content="file:///Users/karenlimon/Desktop/techtonica-assignments/portfolio-website/index.html"/>
-     <meta property="og:image" content="images/personal_pic.jpg" />
-     <meta property="og:description" content="Portfolio of Karen Limon, a program evaluation specialist transiting into tech. See my latest work and let's get in touch." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+    <!--core open graph metadata: they tell social media platforms and messaging apps how to display rich link previews.-->
+    <meta property="og:title" content="Karen Limon's Portfolio" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url"
+        content="file:///Users/karenlimon/Desktop/techtonica-assignments/portfolio-website/index.html" />
+    <meta property="og:image" content="images/personal_pic.jpg" />
+    <meta property="og:description"
+        content="Portfolio of Karen Limon, a program evaluation specialist transiting into tech. See my latest work and let's get in touch." />
 
-     <!--meta tags for twitter-->
-     <meta name="twitter:title" content="Karen Limon's Portfolio">
-    <meta name="twitter:description" content="Portfolio of Karen Limon, a program evaluation specialist transiting into tech. See my latest work and let's get in touch.">
+    <!--meta tags for twitter-->
+    <meta name="twitter:title" content="Karen Limon's Portfolio">
+    <meta name="twitter:description"
+        content="Portfolio of Karen Limon, a program evaluation specialist transiting into tech. See my latest work and let's get in touch.">
     <meta name="twitter:image" content="images/personal_pic.jpg">
     <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -27,69 +33,84 @@
 <!--Adds google analytics-->
 <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-WXR8PKB3"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-287DYK64QQ');
+
 </script>
 
 <!-- body of the portfolio contains 1 grid containter div and 8 divs nested within-->
+
 <body>
 
-<!--NAV BAR outside grid container-->
-<nav class="navbar navbar-expand-lg navbar-override mb-3">   
-  <div class="container-fluid">
+    <!--NAV BAR outside grid container-->
+    <nav class="navbar navbar-expand-lg navbar-override mb-3">
+        <div class="container-fluid">
 
-    <a class="navbar-brand" href="#">Welcome! ¡Bienvenides!</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+            <a class="navbar-brand" href="#">Welcome! ¡Bienvenides!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#aboutme-">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#spotlight-">My Projects</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Let's Connect!
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.linkedin.com/in/karenlimon/">LinkedIn!</a></li>
-            <li><a class="dropdown-item" href="https://github.com/karenlimon">GitHub</a></li>
-            <!-- don't need this atm <li><hr class="dropdown-divider"></li>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#aboutme-">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#spotlight-">My Projects</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Let's Connect!
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/karenlimon/">LinkedIn!</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://github.com/karenlimon">GitHub</a></li>
+                            <!-- don't need this atm <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li> -->
-          </ul>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<!--one div with 9 divs nested in for the grid property-->
-<main class="grid-container">
-<!--div 1/<header> top header -->
+    <!--one div with 9 divs nested in for the grid property-->
+    <main class="grid-container">
+        <!--div 1/<header> top header -->
         <header class="item header1 header-color-override" style="grid-area: box-1">
             <h1>Karen Lizzeth Limón</h1>
             <h4>[she/her/ella]</h4>
         </header>
 
-    <!--div 2 image with border-->
+        <!--div 2 image with border-->
         <div class="item photo-frame" style="grid-area: box-2">
             <img src="images/personal_pic.jpg" alt="A woman with dark curly hair smiling with teeth" class="my-selfie">
-            <img src="images/border_personalpic.711x522.jpg" alt="light blue 90's computer window photo border with 3 decorative buttons on the top right of the border that minimize, expand, and exit" and" class="border-overlay">
+            <img src="images/border_personalpic.711x522.jpg"
+                alt="light blue 90's computer window photo border with 3 decorative buttons on the top right of the border that minimize, expand, and exit"
+                and" class="border-overlay">
         </div>
 
-    <!--div 3 paragraph about me-->
+        <!--div 3 paragraph about me-->
         <section class="item about-me" id="aboutme-" style="grid-area: box-3">
             <h2 class="header2">Learning & Evaluation Specialist | Data Systems | Transitioning into Tech</h2>
 
-            <p>I bring 7+ years of research and evaluation experience, grounded in community participatory methods. For the past 5+ years, I’ve worked with a statewide anti-sexual assault coalition in Texas, where I helped lead internal evaluation, managed the organization’s data systems, and supported impact evaluation for state funding. I also train and support sexual assault programs with their data collection, trauma-informed evaluation, qualitative analysis, and efforts in building a data culture within their organizations. I’m bilingual and have carried out evaluation work in both English and Spanish. I'm excited to build on that foundation with software development skills.</p> 
+            <p>I bring 7+ years of research and evaluation experience, grounded in community participatory methods. For
+                the past 5+ years, I’ve worked with a statewide anti-sexual assault coalition in Texas, where I helped
+                lead internal evaluation, managed the organization’s data systems, and supported impact evaluation for
+                state funding. I also train and support sexual assault programs with their data collection,
+                trauma-informed evaluation, qualitative analysis, and efforts in building a data culture within their
+                organizations. I’m bilingual and have carried out evaluation work in both English and Spanish. I'm
+                excited to build on that foundation with software development skills.</p>
         </section>
-            
-    <!--div 4 skills-->
+
+        <!--div 4 skills-->
         <section class="item skills skills-color-override" id="skills-" style="grid-area: box-4">
             <h2>Technical Skills</h2>
 
@@ -111,68 +132,57 @@
             </ul>
         </section>
 
-    <!--div 5 a visual section divideer-->
-    <!--aria attribute set for the decorative divider -->
-        <div class="item divider-2 divider-color-override role="divides section" aria-label="Pink decorative section divider"" style="grid-area: box-5"></div>
+        <!--div 5 a visual section divideer-->
+        <!--aria attribute set for the decorative divider -->
+        <div class="item divider-2 divider-color-override role=" divides section"
+            aria-label="Pink decorative section divider"" style=" grid-area: box-5"></div>
 
-    <!--div 6 my projects-->
+        <!--div 6 my projects-->
         <section class="item spotlight" id="spotlight-" style="grid-area: box-6">
             <h2>Check-out My Work!</h2>
             <div>
-    <!--add hyperlinks to images and add a shadow box when the user hovers over-->
-                <img src="images/gitHub.jpg" alt="purple folder with the words gitHub.com/karenlimon underneath" class="icon-1">
-                <img src="images/recipe-gitHub.png" alt="purple folder with the words github.com/cafe de olla recipe page underneath" class="icon-2">
+                <!--add hyperlinks to images and add a shadow box when the user hovers over-->
+                <img src="images/gitHub.jpg" alt="purple folder with the words gitHub.com/karenlimon underneath"
+                    class="icon-1">
+                <img src="images/recipe-gitHub.png"
+                    alt="purple folder with the words github.com/cafe de olla recipe page underneath" class="icon-2">
                 <img src="images/taasa-icon.jpg" alt="black global icon with the words taasachi.org" class="icon-3">
             </div>
-            
+
         </section>
 
-    <!-- div 8/<form> contact form: name (required), email (required), phone number (not required), and address (not required)-->
+        <!-- div 8/<form> contact form: name (required), email (required), phone number (not required), and address (not required)-->
         <form class="item contact-form" style="grid-area: box-8">
             <fieldset>
-            <div class="contact-left">    
-                <legend>Contact me! :-] </legend>
-                <!-- aria-hidden="true" tells screen readers to ignore the asterisk so users do not hear awkward symbols read aloud since the screen reader automatically announces the field as "required"-->
-                 <p>I'd like to hear from you.</p>
-            
-            <!-- Name, Email, Phone -->
-                <div>
-                    <label for="name">Name:<span class="requiredField" aria-hidden="true">*</span></label><br>
-                    <input 
-                        type="text" 
-                        id="name" 
-                        name="name"
-                        required><br>
-                 </div>
+                <div class="contact-left">
+                    <legend>Contact me! :-] </legend>
+                    <!-- aria-hidden="true" tells screen readers to ignore the asterisk so users do not hear awkward symbols read aloud since the screen reader automatically announces the field as "required"-->
+                    <p>I'd like to hear from you.</p>
 
-                <div>
-                    <label for="email">Email:<span class="requiredField" aria-hidden="true">*</span></label><br>
-                    <input 
-                        type="email" 
-                        id="email" 
-                        name="email" 
-                        required>
+                    <!-- Name, Email, Phone -->
+                    <div>
+                        <label for="name">Name:<span class="requiredField" aria-hidden="true">*</span></label><br>
+                        <input type="text" id="name" name="name" required><br>
+                    </div>
+
+                    <div>
+                        <label for="email">Email:<span class="requiredField" aria-hidden="true">*</span></label><br>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label for="phone">Enter your phone number:<br /><small>Format: 123-456-7890</small>
+                        </label><br>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </div>
                 </div>
 
-                <div>
-                    <label for="phone">Enter your phone number:<br/><small>Format: 123-456-7890</small> </label><br>
-                    <input 
-                        type="tel" 
-                        id="phone" 
-                        name="phone" 
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                </div>
-            </div>
-
-        <!-- Address -->
+                <!-- Address -->
                 <div class="contact-right">
                     <div>
                         <label for="address">Address:</label><br>
-                        <input 
-                            type="" 
-                            id="address" 
-                            name="address">
-                    </div> 
+                        <input type="" id="address" name="address">
+                    </div>
 
                     <div>
                         <label for="address-line1">Street Address</label>
@@ -217,9 +227,11 @@
             </div>
         </form>
 
-    <!-- div 9 socials section-->
+        <!-- div 9 socials section-->
         <section class="item socials socials-color-override" style="grid-area: box-9">
-            <div><img src="images/chat-icon.png" alt="two pixelated white chat bubbles with the right chat bubble slightly stacked over the left chat bubble" class="icon-4"></div>
+            <div><img src="images/chat-icon.png"
+                    alt="two pixelated white chat bubbles with the right chat bubble slightly stacked over the left chat bubble"
+                    class="icon-4"></div>
             <h2>Follow me!</h2>
             <ul>
                 <li><a href="https://github.com/karenlimon">GitHub</a></li>
@@ -231,8 +243,11 @@
             </ul>
 
         </section>
-</main>
+    </main>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js" integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
